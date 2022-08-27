@@ -2,10 +2,52 @@
  
 <html>
     <head>
+        <link rel="stylesheet" href="style.css">
         <meta charset="UTF-8">
         <title>Rock Paper Scissors</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
+        <main class="main-container">
+            <div class="title">Rock Paper Scissors</div>
+            <div class="player-buttons">
+                <button id="rock" value="Rock">
+                    <img src="assets/icon-rock.svg" height="100" width="100">
+                </button>
+                <button id="paper" value="Paper">
+                    <img src="assets/icon-paper.svg" height="100" width="100">
+                </button>
+                <button id="scissors" value="Scissors">
+                    <img src="assets/icon-paper.svg" height="100" width="100">
+                </button>
+               
+            </div>
+            <div class="round-display">
+
+                Waiting for your play!
+
+            </div>  
+            <div class="score">
+                <div id="player-score">
+
+                    Player
+
+                    <p id="display-player">0</p>
+
+                </div>
+
+                <div>X</div>
+
+                <div id="pc_score">
+
+                    Computer
+
+                    <p id="display-computer">0</p>
+
+                </div>
+            </div>
+        </main>
         <script src="app.js"></script>
     </body>
 </html>

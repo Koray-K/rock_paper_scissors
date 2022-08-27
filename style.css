@@ -1,0 +1,51 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.main-container {
+    gap: 32px;
+    margin: 20px;
+    display: flex;
+    border: 1px solid;
+    flex-direction: column;
+}
+.title {
+    display: flex;
+    font-size: 50px;
+    justify-content: center;
+}
+
+.player-buttons {
+    display: flex;
+    justify-content:center;
+    gap: 40px;
+}
+
+.player-buttons button{
+    border: 6px solid #16569b;
+    border-radius: 12px;
+    border-width: 3px;
+}
+
+.round-display {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+
+button:active {
+    background: #e5e5e5;
+   -webkit-box-shadow: inset 0px 0px 10px #c1c1c1;
+    -moz-box-shadow: inset 0px 0px 10px #c1c1c1;
+    box-shadow: inset 0px 0px 10px #c1c1c1;
+    outline: none;
+ }
+
+ .score{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    margin-bottom: 8%;
+}
